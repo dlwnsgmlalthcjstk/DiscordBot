@@ -1,2 +1,7 @@
-discord.py==1.0
-asyncio==3.4.3
+discord.py
+discord
+random
+asyncio
+os
+alliteration
+
