@@ -1,6 +1,5 @@
-re
 random
-discord==1.0.1
+discord==1.0
 ujson==1.35
-discord.py==1.2.3
+discord.py==1.0
 pip
