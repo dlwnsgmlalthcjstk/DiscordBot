@@ -250,6 +250,6 @@ async def on_message(message):
                 this_server["firstTurn"], this_server["resetRound"] = True, False
                 this_server["who"] = 'CPU'
 
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ['BOT_TOKEN']
 client.run(access_token)
 
