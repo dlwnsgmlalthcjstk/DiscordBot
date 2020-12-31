@@ -1,6 +1,5 @@
 discord.py
 discord
-random
 asyncio
 os
 alliteration
