@@ -2,6 +2,7 @@ import random
 import discord
 import json
 import asyncio
+import os
 from alliteration import *
 
 client = discord.Client()
@@ -249,6 +250,6 @@ async def on_message(message):
                 this_server["firstTurn"], this_server["resetRound"] = True, False
                 this_server["who"] = 'CPU'
 
-
+access_token = os.environ["BOT_TOKEN"]
 client.run('NzkwMDY0MjgxNzc2OTQ3Mjcw.X97Ksw.JMyQ9PHnxnMvrQSnEwT-FMjORE8')
 
