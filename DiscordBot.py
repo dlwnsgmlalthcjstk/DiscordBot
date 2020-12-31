@@ -251,5 +251,5 @@ async def on_message(message):
                 this_server["who"] = 'CPU'
 
 access_token = os.environ["BOT_TOKEN"]
-client.run(access_tpkken)
+client.run(access_token)
 
